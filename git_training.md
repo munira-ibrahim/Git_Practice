@@ -4,13 +4,15 @@
 >After removing staged file locally 1)commit code 2)push to remote repo
 
 # Commands : for Local git repository
->git init .
->git --help .
+> ```git init 
+>git --help 
 >git add <filename>
 >git commit -m "Messege"
 >git status
 >git log
->git ls-files - List tracked/staged files
+>git ls-files -  List tracked/staged files
+ 
+
 
 # List local and remote branch
 >git branch - List all local branches
