@@ -4,8 +4,8 @@
 >After removing staged file locally 1)commit code 2)push to remote repo
 
 # Commands : for Local git repository
->git init
->git --help
+>git init .
+>git --help .
 >git add <filename>
 >git commit -m "Messege"
 >git status
