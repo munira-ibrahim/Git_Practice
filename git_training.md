@@ -3,7 +3,7 @@
 - After resolving merge conflict 1)ctrl+s 2)commit code 3)merge
 - After removing staged file locally 1)commit code 2)push to remote repo
 
-# Commands : For Local git repository
+# Commands : For Local Git Repository
 ```
 git init
 git --help
@@ -122,7 +122,7 @@ git push -u origin <branch-name>
 git push
 ```
 
-### [Map remote git hub branch to local tracking branch]
+### Map remote git hub branch to local tracking branch
 ```
 git fetch                       - (fetch remote branch , git merge)
 git branch --track <local-branch-name> origin/<remote-branch-name> - (map remote branch to local tracking branch)
