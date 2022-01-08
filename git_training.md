@@ -8,6 +8,10 @@
     1. commit code 
     2. push to remote repo
 
+# Bonus Command :
+```
+git add --all && git commit -m "Message"
+```
 # Commands : For Local Git Repository
 ```
 git init
