@@ -129,9 +129,11 @@ git branch --track <local-branch-name> origin/<remote-branch-name> - (map remote
 ```
 
 # Git Pull
+- git pull = git fetch + git merge
 ```
-git pull = git fetch + git merge
-git pull
+
+git pull <remote-url> <branch-name>
+git pull <remote-url> <branch-name> --force 
 git pull origin <branch-name>
 ```
 
