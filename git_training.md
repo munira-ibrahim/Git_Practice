@@ -11,6 +11,8 @@
 # Bonus Command :
 ```
 git add --all && git commit -m "Message"
+
+git remote add origin git@github.com:munira-ibrahim/angular-practice.git
 ```
 # Commands : For Local Git Repository
 ```
