@@ -12,7 +12,7 @@
 ```
 git add --all && git commit -m "Message"
 
-git remote add origin git@github.com:munira-ibrahim/angular-practice.git
+git remote add origin <remote-repo-url>
 ```
 # Commands : For Local Git Repository
 ```
