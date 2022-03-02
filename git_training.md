@@ -15,6 +15,8 @@ git add --all && git commit -m "Message"
 git remote add origin <remote-repo-url>
 
 git branch -M master main
+
+git pull origin master --allow-unrelated-histories
 ```
 # Commands : For Local Git Repository
 ```
