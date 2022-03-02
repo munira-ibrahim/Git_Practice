@@ -13,6 +13,8 @@
 git add --all && git commit -m "Message"
 
 git remote add origin <remote-repo-url>
+
+git branch -M master main
 ```
 # Commands : For Local Git Repository
 ```
@@ -137,6 +139,8 @@ git push
 ```
 git fetch                       - (fetch remote branch , git merge)
 git branch --track <local-branch-name> origin/<remote-branch-name> - (map remote branch to local tracking branch)
+        OR
+git branch -u remote_name/branch_name local_branch_name
 ```
 
 # Git Pull
