@@ -17,6 +17,8 @@ git remote add origin <remote-repo-url>
 git branch -M master main
 
 git pull origin master --allow-unrelated-histories
+
+git config --global http.sslVerify false
 ```
 # Commands : For Local Git Repository
 ```
