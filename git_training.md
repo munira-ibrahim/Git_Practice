@@ -1,13 +1,3 @@
-# Fun Fact
-- Staging area is same for all branch
-- After resolving merge conflict 
-    1. ctrl+s 
-    2. commit code 
-    3. merge
-- After removing staged file locally 
-    1. commit code 
-    2. push to remote repo
-
 # Bonus Command :
 ```
 git add --all && git commit -m "Message"
@@ -17,6 +7,8 @@ git remote add origin <remote-repo-url>
 git branch -M master main
 
 git pull origin master --allow-unrelated-histories
+
+git config --global http.sslVerify false
 ```
 # Commands : For Local Git Repository
 ```
