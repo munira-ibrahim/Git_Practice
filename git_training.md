@@ -9,6 +9,12 @@ git branch -M master main
 git pull origin master --allow-unrelated-histories
 
 git config --global http.sslVerify false
+
+git reset <commit-id>  : soft delete of all commits which are before specified commit id
+
+git reset --hard <commit-id> : hard delete of all commits which are before specified commit id
+
+git rebase -i <commit-id> : squash or pick all commits which are before specified commit id
 ```
 # Commands : For Local Git Repository
 ```
