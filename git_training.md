@@ -14,7 +14,9 @@ git reset <commit-id>  : soft delete of all commits which are before specified c
 
 git reset --hard <commit-id> : hard delete of all commits which are before specified commit id
 
-git rebase -i <commit-id> : squash or pick all commits which are before specified commit id
+git rebase -i <commit-id>/HEAD~3[Hint: 3 commit to squash] : squash or pick all commits which are before specified commit id
+
+git commit --amend -m "New commit message." : overrite recent commit message
 ```
 # Commands : For Local Git Repository
 ```
