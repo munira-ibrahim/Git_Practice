@@ -4,17 +4,19 @@ git add --all && git commit -m "Message"
 
 git remote add origin <remote-repo-url>
 
+git remote set-url <remote-name>[origin] <remote-url>       : Change remote url
+
 git branch -M master main
 
 git pull origin master --allow-unrelated-histories
 
 git config --global http.sslVerify false
 
-git reset <commit-id>  : soft delete of all commits which are before specified commit id
+git reset <commit-id>                                       : soft delete of all commits which are before specified commit id
 
-git reset --hard <commit-id> : hard delete of all commits which are before specified commit id
+git reset --hard <commit-id>                                : hard delete of all commits which are before specified commit id
 
-git rebase -i <commit-id>/HEAD~3[Hint: 3 commit to squash] : squash or pick all commits which are before specified commit id
+git rebase -i <commit-id>/HEAD~3[Hint: 3 commit to squash]  : squash or pick all commits which are before specified commit id
 
 git commit --amend -m "New commit message." : overrite recent commit message
 ```
